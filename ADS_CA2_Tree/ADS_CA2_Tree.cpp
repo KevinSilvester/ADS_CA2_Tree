@@ -6,6 +6,8 @@
 #include "Utilities.h"
 #include "Car.h"
 #include "Date.h"
+#include "Data.h"
+
 using namespace std;
 
 void demoSimpleHash();

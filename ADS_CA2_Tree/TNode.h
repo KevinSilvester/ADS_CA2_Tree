@@ -15,7 +15,8 @@ private:
 	/// <summary>
 	/// Pointers to the two kids. Go left if new data key < key for this node, else go right
 	/// </summary>
-	TNode* pLeft, * pRight;
+	TNode* pLeft, * pRight, *parent;
+	
 
 public:
 	bool insert(K key, E data) {
